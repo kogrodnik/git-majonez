@@ -1,0 +1,64 @@
+  990  mkdir git-majonez
+  991  ls 
+  992  cd git-majonez/
+  993  git init 
+  994  gedit main.cpp
+  995  ls 
+  996  git add main.cpp 
+  997  git commit-m"Initial commit"
+  998  git commit-m "Initial commit"
+  999  git status 
+ 1000  git commit 
+ 1001  git commit -m"Initial commit"
+ 1002  git status 
+ 1003  gedir main.cpp 
+ 1004  gedit main.cpp 
+ 1005  git status 
+ 1006  git add main.cpp 
+ 1007  git commit -m"Farewell changed"
+ 1008  git status 
+ 1009  git log
+ 1010  git remote add origin https://github.com/kogrodnik/git-majonez.git
+ 1011  git push -u origin main
+ 1012  git push -u origin master
+ 1013  git push -u origin main
+ 1014  git push -u origin master
+ 1015  ogrodnik.klaudiusz@gmail.com
+ 1016  git push -u origin master
+ 1017  git branch cs
+ 1018  git log 
+ 1019  git branch
+ 1020  got branch -a
+ 1021  git branch -a
+ 1022  git checkout cs
+ 1023  git branch -a
+ 1024  git log 
+ 1025  git reset --hard
+ 1026  git log
+ 1027  git reset 7621a325f5e575c0b10db9732be767f6f6002d12
+ 1028  git log 
+ 1029  git reset --hard 7621a325f5e575c0b10db9732be767f6f6002d12
+ 1030  git log 
+ 1031  git reset --hard HEAD^
+ 1032  git log 
+ 1033  git branch -a
+ 1034  gedit main.cpp 
+ 1035  git status 
+ 1036  git add main.cpp 
+ 1037  git commit -m"Greetings"
+ 1038  git push origin cs
+ 1039  git status 
+ 1040  git checkout master 
+ 1041  git merge cs
+ 1042  cat main.cpp 
+ 1043  gedit main.cpp 
+ 1044  git merge cs
+ 1045  gedit main.cpp 
+ 1046  git add/rm main.cpp
+ 1047  git add main.cpp 
+ 1048  git commit 
+ 1049  git merge cs
+ 1050  git status
+ 1051  touch history.txt
+ 1052  history 
+ 1053  history | tail -n 62 >> history.txt
