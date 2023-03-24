@@ -1,0 +1,51 @@
+ 2091  mkdir git-majonez 
+ 2092  ls 
+ 2093  cd git-majonez/
+ 2094  git init 
+ 2095  touch main.cpp
+ 2096  gedit main.cpp 
+ 2097  git status 
+ 2098  git add main.cpp 
+ 2099  git status 
+ 2100  git commit -m"Initial commit"
+ 2101  git status 
+ 2102  gedit main.cpp 
+ 2103  git status 
+ 2104  git add main.cpp 
+ 2105  git status 
+ 2106  git commit -m"Farewell changed"
+ 2107  git status 
+ 2108  git remote add origin https://github.com/kogrodnik/git-majonez.git
+ 2109  git push -u origin master 
+ 2110  git branch cs 
+ 2111  git log 
+ 2112  git checkout cs 
+ 2113  git log 
+ 2114  git reset --hard e9f2f86c45
+ 2115  git log 
+ 2116  git reset 5be63d56
+ 2117  git log 
+ 2118  git status 
+ 2119  git stash 
+ 2120  git status 
+ 2121  git stash pop 
+ 2122  git status 
+ 2123  git stash 
+ 2124  git status 
+ 2125  gedit main.cpp 
+ 2126  git status 
+ 2127  git add main.cpp 
+ 2128  git commit -m"Greetings"
+ 2129  git push origin cs 
+ 2130  git checkout master 
+ 2131  git merge cs 
+ 2132  git status 
+ 2133  gedit main.cpp 
+ 2134  git status 
+ 2135  git add main.cpp 
+ 2136  git status 
+ 2137  git commit 
+ 2138  history 
+ 2139  history | tail -n48 > history.txt
+ 2140  cat history.txt 
+ 2141  history | tail -n51 > history.txt
